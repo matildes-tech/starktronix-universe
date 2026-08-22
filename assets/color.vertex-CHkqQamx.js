@@ -1,0 +1,1 @@
+import{t as e}from"./color.vertex-orRsmpxf.js";export{e as colorVertexShader};

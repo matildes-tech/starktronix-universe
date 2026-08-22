@@ -1,0 +1,1 @@
+import{t as e}from"./color.fragment-mFC5SWW4.js";export{e as colorPixelShader};

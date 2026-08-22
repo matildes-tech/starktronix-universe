@@ -1,0 +1,1 @@
+import{t as e}from"./volumetricLightScatteringPass.vertex-voH6MWvu.js";export{e as volumetricLightScatteringPassVertexShader};

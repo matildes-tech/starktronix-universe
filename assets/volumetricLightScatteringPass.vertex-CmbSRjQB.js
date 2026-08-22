@@ -1,0 +1,1 @@
+import{t as e}from"./volumetricLightScatteringPass.vertex-Dt4VivGf.js";export{e as volumetricLightScatteringPassVertexShaderWGSL};

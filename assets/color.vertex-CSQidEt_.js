@@ -1,0 +1,1 @@
+import{t as e}from"./color.vertex-CyAuTS_1.js";export{e as colorVertexShaderWGSL};

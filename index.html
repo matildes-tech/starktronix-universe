@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Universe background — prototype</title>
+      <script type="module" crossorigin src="./assets/background-DHmezb38.js"></script>
+      <link rel="modulepreload" crossorigin href="./assets/math.scalar.functions-C_V3kc8b.js">
+      <link rel="modulepreload" crossorigin href="./assets/background-BIqKXSfn.js">
+      <link rel="modulepreload" crossorigin href="./assets/observable.pure-BmPG9gPP.js">
+      <link rel="modulepreload" crossorigin href="./assets/internalTexture-Dh1cRS5_.js">
+      <link rel="modulepreload" crossorigin href="./assets/engineStore-BfWggCZa.js">
+      <link rel="modulepreload" crossorigin href="./assets/logger-CuBYPcDK.js">
+      <link rel="modulepreload" crossorigin href="./assets/shaderStore-D-XQlhUT.js">
+      <link rel="modulepreload" crossorigin href="./assets/domManagement-BqltO0ki.js">
+      <link rel="modulepreload" crossorigin href="./assets/devTools-Bh3wKyVb.js">
+      <link rel="modulepreload" crossorigin href="./assets/timingTools-CjCzneAx.js">
+      <link rel="modulepreload" crossorigin href="./assets/performanceConfigurator-UtxC_Odd.js">
+      <link rel="modulepreload" crossorigin href="./assets/precisionDate-Uyb-ubD0.js">
+      <link rel="modulepreload" crossorigin href="./assets/abstractEngine.pure-CKSnkkku.js">
+      <link rel="modulepreload" crossorigin href="./assets/tools.functions-CqW-SPU8.js">
+      <link rel="modulepreload" crossorigin href="./assets/thinEngine.pure-DeNbUJye.js">
+      <link rel="modulepreload" crossorigin href="./assets/halfFloat-Ce77JD5z.js">
+      <link rel="modulepreload" crossorigin href="./assets/bufferUtils-q0fDaU_r.js">
+      <link rel="modulepreload" crossorigin href="./assets/buffer.pure-QSphiMpz.js">
+      <link rel="modulepreload" crossorigin href="./assets/typeStore-Cu_sj2zM.js">
+      <link rel="modulepreload" crossorigin href="./assets/math.vector.pure-B4U72LLL.js">
+      <link rel="modulepreload" crossorigin href="./assets/math.color.pure-CY0M5jSs.js">
+      <link rel="modulepreload" crossorigin href="./assets/math.plane-DhRF1zEV.js">
+      <link rel="modulepreload" crossorigin href="./assets/decorators-jaNTLUxa.js">
+      <link rel="modulepreload" crossorigin href="./assets/decorators.serialization-BH7BeTDA.js">
+      <link rel="modulepreload" crossorigin href="./assets/webRequest-dqz0dHXK.js">
+      <link rel="modulepreload" crossorigin href="./assets/fileTools.pure-Dl6_GF8n.js">
+      <link rel="modulepreload" crossorigin href="./assets/guid-BXdVC_j_.js">
+      <link rel="modulepreload" crossorigin href="./assets/tools.pure-eQ5q775N.js">
+      <link rel="modulepreload" crossorigin href="./assets/smartArray-BRfcgNbX.js">
+      <link rel="modulepreload" crossorigin href="./assets/lightConstants-pO2Ayv5i.js">
+      <link rel="modulepreload" crossorigin href="./assets/sceneComponent-PNsxk1uG.js">
+      <link rel="modulepreload" crossorigin href="./assets/pointerEvents-BYGyEd_h.js">
+      <link rel="modulepreload" crossorigin href="./assets/keyboardEvents-CGYiptFb.js">
+      <link rel="modulepreload" crossorigin href="./assets/scene.pure-CiUTTAxl.js">
+      <link rel="modulepreload" crossorigin href="./assets/math.axis-VQomK1l_.js">
+      <link rel="modulepreload" crossorigin href="./assets/preload-helper-HclGiUj8.js">
+      <link rel="modulepreload" crossorigin href="./assets/drawWrapper-CHh6uE08.js">
+      <link rel="modulepreload" crossorigin href="./assets/effectRenderer.pure-MP9T5A25.js">
+      <link rel="modulepreload" crossorigin href="./assets/baseTexture.pure-CMDMkng1.js">
+      <link rel="modulepreload" crossorigin href="./assets/texture.pure-BSz80KUx.js">
+      <link rel="modulepreload" crossorigin href="./assets/material.pure-C_oQx9ko.js">
+      <link rel="modulepreload" crossorigin href="./assets/node-BdEclpGt.js">
+      <link rel="modulepreload" crossorigin href="./assets/postProcess.pure-BVeXVUmP.js">
+      <link rel="modulepreload" crossorigin href="./assets/imageProcessing-CJKPHl1H.js">
+      <link rel="modulepreload" crossorigin href="./assets/gaussianSplattingMesh.pure-0-jiTVDF.js">
+      <link rel="modulepreload" crossorigin href="./assets/easing-7HI5EQLa.js">
+      <link rel="modulepreload" crossorigin href="./assets/cubemapToSphericalPolynomial-DG21cuvr.js">
+      <link rel="modulepreload" crossorigin href="./assets/abstractEngine.cubeTexture.pure-C8YOxDz2.js">
+      <link rel="modulepreload" crossorigin href="./assets/openpbrMaterialLoadingAdapter-CX34Pl93.js">
+      <link rel="modulepreload" crossorigin href="./assets/pbrMaterial.pure-CktNQ87k.js">
+      <link rel="modulepreload" crossorigin href="./assets/animation.pure-CfvZ2Iyu.js">
+      <link rel="modulepreload" crossorigin href="./assets/constants-DNxlZnxc.js">
+      <link rel="modulepreload" crossorigin href="./assets/flowGraphInteger.pure-CZmJgkLp.js">
+      <link rel="modulepreload" crossorigin href="./assets/glTFLoaderAnimation-lNOraQ0d.js">
+      <link rel="modulepreload" crossorigin href="./assets/animationGroup.pure-CyShpM8j.js">
+      <link rel="modulepreload" crossorigin href="./assets/timer-CrOF-Izh.js">
+      <link rel="modulepreload" crossorigin href="./assets/envTextureLoader-Bg69RXz0.js">
+      <link rel="modulepreload" crossorigin href="./assets/hdr-DfV-oWa4.js">
+      <link rel="modulepreload" crossorigin href="./assets/workerPool-Dva09jEo.js">
+      <link rel="modulepreload" crossorigin href="./assets/webAudioBaseSubGraph-ClFTQSDw.js">
+      <link rel="modulepreload" crossorigin href="./assets/spatialWebAudio-CsgB_dyp.js">
+      <link rel="modulepreload" crossorigin href="./assets/abstractSoundSource-BN_UYlss.js">
+      <link rel="modulepreload" crossorigin href="./assets/webAudioSoundSource-BGD7L9WY.js">
+      <link rel="modulepreload" crossorigin href="./assets/abstractSoundInstance-DbdgNIKl.js">
+      <link rel="modulepreload" crossorigin href="./assets/webAudioStaticSound-ByeBUFm8.js">
+      <link rel="modulepreload" crossorigin href="./assets/webAudioStreamingSound-DuOYfX8Z.js">
+      <link rel="modulepreload" crossorigin href="./assets/flowGraphBlock-B91TEBsB.js">
+      <link rel="modulepreload" crossorigin href="./assets/flowGraphAssetsContext-WtUyuDAI.js">
+      <link rel="modulepreload" crossorigin href="./assets/flowGraphExecutionBlock-CZRw-TnC.js">
+      <link rel="modulepreload" crossorigin href="./assets/flowGraphExecutionBlockWithOutSignal-C1suOMR3.js">
+      <link rel="modulepreload" crossorigin href="./assets/flowGraphAsyncExecutionBlock-CwBNqzbX.js">
+      <link rel="modulepreload" crossorigin href="./assets/utils-N5rsUTjt.js">
+      <link rel="modulepreload" crossorigin href="./assets/flowGraphEventBlock-BIq-4BJz.js">
+      <link rel="modulepreload" crossorigin href="./assets/flowGraphCoordinator-CZqnna7b.js">
+      <link rel="modulepreload" crossorigin href="./assets/flowGraphRichTypes-CLvTge5k.js">
+      <link rel="modulepreload" crossorigin href="./assets/flowGraphDelayRegistry-Dd3murvx.js">
+      <link rel="modulepreload" crossorigin href="./assets/math.vector.functions-A1OuPkkA.js">
+      <link rel="modulepreload" crossorigin href="./assets/sceneUboDeclaration-B5VhSG0v.js">
+      <link rel="modulepreload" crossorigin href="./assets/meshUboDeclaration-BmNu2KU_.js">
+      <link rel="modulepreload" crossorigin href="./assets/gaussianSplatting-vJ6yzDcm.js">
+      <link rel="modulepreload" crossorigin href="./assets/logDepthFragment-CxtJswLx.js">
+      <link rel="modulepreload" crossorigin href="./assets/fogFragmentDeclaration-BUwVfAzM.js">
+      <link rel="modulepreload" crossorigin href="./assets/gaussianSplattingFragmentDeclaration-B8Bak1BL.js">
+      <link rel="modulepreload" crossorigin href="./assets/sceneUboDeclaration-B96Tfx7b.js">
+      <link rel="modulepreload" crossorigin href="./assets/meshUboDeclaration-BATNZvmb.js">
+      <link rel="modulepreload" crossorigin href="./assets/gaussianSplatting-Dq1CpTgZ.js">
+      <link rel="modulepreload" crossorigin href="./assets/clipPlaneFragment-DVK0wgyZ.js">
+      <link rel="modulepreload" crossorigin href="./assets/fogFragment-CISE_m3s.js">
+      <link rel="modulepreload" crossorigin href="./assets/color.fragment-mFC5SWW4.js">
+      <link rel="modulepreload" crossorigin href="./assets/bakedVertexAnimation-e--Ra-by.js">
+      <link rel="modulepreload" crossorigin href="./assets/instancesDeclaration-CJBvtBV5.js">
+      <link rel="modulepreload" crossorigin href="./assets/instancesVertex-C-FoRQR1.js">
+      <link rel="modulepreload" crossorigin href="./assets/clipPlaneVertex-C59BO8JS.js">
+      <link rel="modulepreload" crossorigin href="./assets/fogVertexDeclaration-Bb9kDbrL.js">
+      <link rel="modulepreload" crossorigin href="./assets/fogVertex-B90wzaBe.js">
+      <link rel="modulepreload" crossorigin href="./assets/vertexColorMixing-DPW6Is9y.js">
+      <link rel="modulepreload" crossorigin href="./assets/color.vertex-orRsmpxf.js">
+      <link rel="modulepreload" crossorigin href="./assets/clipPlaneFragment-Ct2VqHzk.js">
+      <link rel="modulepreload" crossorigin href="./assets/color.fragment-CzhS3ZAf.js">
+      <link rel="modulepreload" crossorigin href="./assets/bakedVertexAnimation-REF_QM7_.js">
+      <link rel="modulepreload" crossorigin href="./assets/instancesDeclaration-DsiFqYXH.js">
+      <link rel="modulepreload" crossorigin href="./assets/instancesVertex-Dty6qjVO.js">
+      <link rel="modulepreload" crossorigin href="./assets/clipPlaneVertex-DKhVm1NW.js">
+      <link rel="modulepreload" crossorigin href="./assets/fogVertexDeclaration-CiHbVcSR.js">
+      <link rel="modulepreload" crossorigin href="./assets/fogVertex-D0bmc4KF.js">
+      <link rel="modulepreload" crossorigin href="./assets/vertexColorMixing-UCrnwszu.js">
+      <link rel="modulepreload" crossorigin href="./assets/color.vertex-CyAuTS_1.js">
+      <link rel="modulepreload" crossorigin href="./assets/morphTargetsVertex-6N5r7oF1.js">
+      <link rel="modulepreload" crossorigin href="./assets/morphTargetsVertex-OlIh-Lzh.js">
+      <link rel="modulepreload" crossorigin href="./assets/pointCloudVertex-CmkEsLzf.js">
+      <link rel="modulepreload" crossorigin href="./assets/depth.vertex-56AYEN7D.js">
+      <link rel="modulepreload" crossorigin href="./assets/volumetricLightScattering.fragment-BH2C9ogL.js">
+      <link rel="modulepreload" crossorigin href="./assets/volumetricLightScatteringPass.vertex-voH6MWvu.js">
+      <link rel="modulepreload" crossorigin href="./assets/volumetricLightScatteringPass.fragment-SVT3C0Wr.js">
+      <link rel="modulepreload" crossorigin href="./assets/volumetricLightScattering.fragment-BWZaE6dA.js">
+      <link rel="modulepreload" crossorigin href="./assets/volumetricLightScatteringPass.vertex-Dt4VivGf.js">
+      <link rel="modulepreload" crossorigin href="./assets/volumetricLightScatteringPass.fragment-DnPk7UOC.js">
+      <link rel="stylesheet" crossorigin href="./assets/background-CmzRfa2h.css">
+    </head>
+    <body>
+        <!-- The live scene. Never receives pointer events, so the page scrolls
+             and its text selects exactly as a normal document would. -->
+        <!-- Shown only when the scene cannot start, so the page is still a page. -->
+        <div id="skyfallback"></div>
+        <p id="fallback-note"></p>
+
+        <canvas id="universe"></canvas>
+
+        <div id="loader">
+            <img id="loader-mark" src="./assets/starktronix-logo-ipUE5ubq.png" alt="Starktronix" />
+            <div id="loader-text">Loading the universe</div>
+            <div id="loader-track"><div id="loader-bar"></div></div>
+            <p id="loader-note"></p>
+        </div>
+
+        <!-- The Sun's own light does the work in 3D; this guarantees the page
+             actually reaches white, whatever the renderer does inside a star. -->
+        <div id="whiteout"></div>
+
+        <!-- The end card. Rides in on the same curve as the white-out, so the
+             page resolves into a footer rather than simply going blank. -->
+        <!-- The end card. Rides in on the back half of the white-out, so the
+             frame reaches white, holds, then crossfades to this. -->
+        <footer id="endcard">
+            <div class="endcard-inner">
+                <!-- Where the reference puts a headline in a filled panel, this
+                     puts the mark on the black and nothing else. -->
+                <div class="endcard-panel">
+                    <img class="endcard-panel-mark" src="./assets/starktronix-logo-ipUE5ubq.png" alt="Starktronix" />
+                </div>
+
+                <div class="endcard-grid">
+                    <div class="endcard-news">
+                        <h4>Newsletter</h4>
+                        <form id="endcard-form" class="endcard-form" novalidate>
+                            <input type="email" name="email" placeholder="Enter Your Email" aria-label="Email address" />
+                            <button type="submit">Submit</button>
+                        </form>
+                        <p class="endcard-news-note">Placeholder line — what a reader gets by leaving an address.</p>
+                    </div>
+
+                    <div class="endcard-col">
+                        <h4>Product</h4>
+                        <a href="./technology.html">Technology</a>
+                        <a href="./capabilities.html">Capabilities</a>
+                        <a href="./solutions.html">Solutions</a>
+                        <a href="./network.html">Network</a>
+                        <a href="./scale.html">Scale</a>
+                    </div>
+
+                    <div class="endcard-col">
+                        <h4>Company</h4>
+                        <a href="#hero">About</a>
+                        <a href="#hero">Careers</a>
+                        <a href="#hero">Press</a>
+                        <a href="#hero">Partners</a>
+                        <a href="mailto:hello@starktronix.com">Contact</a>
+                    </div>
+                </div>
+
+                <div class="endcard-rule"></div>
+
+                <div class="endcard-foot">
+                    <p>&copy; Starktronix. All rights reserved.</p>
+                    <p id="endcard-legal">
+                        Backdrop photograph &copy; Starktronix.
+                        Engine and celestial bodies by <a href="https://cosmosjourneyer.com" rel="noopener" target="_blank">Cosmos Journeyer</a>,
+                        <a href="https://www.gnu.org/licenses/agpl-3.0.html" rel="noopener" target="_blank">AGPL-3.0</a> &mdash;
+                        <a href="https://github.com/matildes-tech/cosmos-journeyer-background" rel="noopener" target="_blank">source</a>.
+                        Ship by <a href="https://sketchfab.com/jimbogies" rel="noopener" target="_blank">jimbogies</a>, CC-BY-4.0.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+        <header id="topbar">
+            <button id="navtoggle" class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navsheet">
+                <span></span><span></span><span></span>
+            </button>
+            <a class="mark" href="#hero" aria-label="Starktronix">
+                <img src="./assets/starktronix-logo-ipUE5ubq.png" alt="Starktronix" />
+            </a>
+            <nav aria-label="Sections">
+                <a href="./technology.html">Technology</a>
+                <a href="./capabilities.html">Capabilities</a>
+                <a href="./solutions.html">Solutions</a>
+                <a href="./network.html">Network</a>
+                <a href="./scale.html">Scale</a>
+            </nav>
+            <a class="cta" href="#contact" aria-label="Get in touch">
+                <span class="cta-text">Get in touch</span>
+                <span class="cta-icon" aria-hidden="true">&#8599;</span>
+            </a>
+        </header>
+
+        <!-- The phone menu. Same anchors as the bar; it exists because the bar
+             on a phone has room for a mark and one action, not five links. -->
+        <div id="navsheet-scrim"></div>
+        <div id="navsheet">
+            <nav aria-label="Sections">
+                <a href="./technology.html">Technology</a>
+                <a href="./capabilities.html">Capabilities</a>
+                <a href="./solutions.html">Solutions</a>
+                <a href="./network.html">Network</a>
+                <a href="./scale.html">Scale</a>
+            </nav>
+            <a class="navsheet-cta" href="#contact">Get in touch</a>
+        </div>
+
+        <!-- Seven sections for seven points on the flight. Each section fills the
+             viewport at exactly the scroll position where its subject is framed,
+             so the copy and the camera never drift apart. -->
+        <!-- Text is pinned to the edges of the frame and to one mid-screen
+             line, leaving the centre entirely free for the flight. The copy is
+             placeholder; the structure is the point. -->
+        <!-- Headline top left, supporting paragraph bottom right, pill beneath
+             it. The centre of the frame stays clear for the flight. Copy is
+             placeholder; the arrangement is what matters. -->
+        <!-- Four section layouts, cycled: hero, statement, quiet, index.
+             All copy is placeholder, written to the lengths each role takes. -->
+        <main>
+            <section class="panel layout-hero" id="hero">
+                <div class="panel-inner">
+                    <h1 class="headline">Engineering<br />the future</h1>
+                    <div class="lede">
+                        <p class="lede-mono">STARKTRONIX</p>
+                        <p class="lede-body">Placeholder copy. One or two sentences setting out what the company does, at the length the reference gives this role.</p>
+                        <a class="lede-cta" href="#technology">Scroll to explore <span aria-hidden="true">&darr;</span></a>
+                    </div>
+                </div>
+            </section>
+            <section class="panel layout-statement" id="technology">
+                <div class="panel-inner">
+                    <h2 class="headline">Ten operating<br />industries.</h2>
+                    <p class="subline">Placeholder copy. A second, quieter statement of two lines.</p>
+                    <div class="telemetry">
+                        <span>MERIDIAN: SENSOR FUSION ACTIVE</span>
+                        <span>POSITION: GNSS DEGRADED / FUSED</span>
+                        <span>OPERATING BASELINE: GPS-DENIED</span>
+                        <span>EDGE INFERENCE / NO CLOUD</span>
+                    </div>
+                </div>
+            </section>
+            <section class="panel layout-quiet" id="capabilities">
+                <div class="panel-inner">
+                    <div class="telemetry">
+                        <span>SIGNAL: STATE CHANGE DETECTED</span>
+                        <span>FUSED FROM MANY WEAK SIGNALS</span>
+                        <span>DECISIONS LOGGED / AUDITABLE: 100 %</span>
+                        <span>CAPABILITY: BOUNDED BY DESIGN</span>
+                    </div>
+                </div>
+            </section>
+            <section class="panel layout-statement" id="solutions">
+                <div class="panel-inner">
+                    <h2 class="headline">Built for the<br />long range.</h2>
+                    <p class="subline">Placeholder copy. A second, quieter statement of two lines.</p>
+                    <div class="telemetry">
+                        <span>RANGE: EXTENDED / UNSUPPORTED</span>
+                        <span>LINK: INTERMITTENT BY DESIGN</span>
+                        <span>AUTONOMY: FULL / ON BOARD</span>
+                        <span>RECOVERY: SELF DIRECTED</span>
+                    </div>
+                </div>
+            </section>
+            <section class="panel layout-index" id="network">
+                <div class="panel-inner">
+                    <span class="hud-name">SATURN</span>
+                    <span class="hud-meta">GAS GIANT &middot; 58,232 KM</span>
+                    <span class="hud-note">RINGS LIT FROM BEHIND</span>
+                    <span class="hud-index">04 / 06</span>
+                    <div class="hud-keys">
+                        <span class="hud-key">[&middot;] FLIGHT</span>
+                        <span class="hud-key dim">[ ] SOL SYSTEM</span>
+                        <span class="hud-key dim">[ ] INBOUND</span>
+                    </div>
+                </div>
+            </section>
+            <section class="panel layout-statement" id="scale">
+                <div class="panel-inner">
+                    <h2 class="headline">Scale<br />on demand.</h2>
+                    <p class="subline">Placeholder copy. A second, quieter statement of two lines.</p>
+                    <div class="telemetry">
+                        <span>FLEET: ELASTIC</span>
+                        <span>DEPLOYMENT: HOURS NOT MONTHS</span>
+                        <span>COVERAGE: CONTINENTAL</span>
+                        <span>OVERHEAD: NONE ADDED</span>
+                    </div>
+                </div>
+            </section>
+            <section class="panel layout-hero" id="contact">
+                <div class="panel-inner">
+                    <h1 class="headline">Let us<br />talk.</h1>
+                    <div class="lede">
+                        <p class="lede-mono">06 — CONTACT</p>
+                        <p class="lede-body">Placeholder copy. A closing line inviting contact, at the length the reference uses here.</p>
+                        <a class="lede-cta" href="#contact">Get in touch <span aria-hidden="true">&darr;</span></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+    </body>
+</html>
